@@ -1,32 +1,42 @@
-export const metadata = {
-  title: 'Home - Stellar',
-  description: 'Page description',
-}
-
-import Hero from '@/components/hero'
-import Clients from '@/components/clients'
-import Features from '@/components/features'
-import Features02 from '@/components/features-02'
-import Features03 from '@/components/features-03'
-import TestimonialsCarousel from '@/components/testimonials-carousel'
-import Features04 from '@/components/features-04'
-import Pricing from './pricing-section'
-import Testimonials from '@/components/testimonials'
-import Cta from '@/components/cta'
-
-export default function Home() {
+// @ts-nocheck
+export default function Page() {
   return (
-    <>
-      <Hero />
-      <Clients />
-      <Features />
-      <Features02 />
-      <Features03 />
-      <TestimonialsCarousel />
-      <Features04 />
-      <Pricing />
-      <Testimonials />
-      <Cta />
-    </>
-  )
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      alignItems: 'center', 
+      justifyContent: 'center', 
+      height: '100vh', 
+      fontFamily: 'sans-serif', 
+      backgroundColor: '#0f172a', 
+      color: '#fff', 
+      textAlign: 'center', 
+      padding: '20px' 
+    }}>
+      <h1 style={{ 
+        fontSize: '3rem', 
+        marginBottom: '1.5rem', 
+        fontWeight: 'bold', 
+        color: '#38bdf8', 
+        letterSpacing: '2px' 
+      }}>
+        MECAI.AI
+      </h1>
+      <h2 style={{ 
+        fontSize: '1.8rem', 
+        marginBottom: '1rem', 
+        fontWeight: '600' 
+      }}>
+        This website is under construction 🛠️
+      </h2>
+      <p style={{ 
+        fontSize: '1.2rem', 
+        color: '#94a3b8', 
+        maxWidth: '600px', 
+        lineHeight: '1.6' 
+      }}>
+        We're building the future of avatar interview simulation and global certification.
+      </p>
+    </div>
+  );
 }
