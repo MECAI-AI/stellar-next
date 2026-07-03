@@ -57,6 +57,7 @@
   --animate-shine: shine 5s linear 500ms infinite;
   --animate-float: float 2s ease-in-out infinite;
   --animate-infinite-scroll: infinite-scroll 40s linear infinite;
+  --animate-holo-scan: holo-scan 1.2s ease-out 1 forwards;
 
   @keyframes endless {
     0% {
@@ -103,6 +104,22 @@
     }
     to {
       transform: translateX(-100%);
+    }
+  }
+  @keyframes holo-scan {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+    15% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+      opacity: 0;
     }
   }
 }
