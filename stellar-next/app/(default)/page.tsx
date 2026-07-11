@@ -1,5 +1,17 @@
+export const metadata = {
+  title: "MECAI.ai - Pelopor Platform AI Pertama di Aceh",
+  description: "Penggerak pertama ekosistem karir berbasis AI di Aceh dengan sertifikasi Blockchain peraih Rekor MURI & 2 Rekor Dunia.",
+  keywords: [
+    "pelopor domain ai pertama di aceh", 
+    "startup ai aceh", 
+    "simulasi interview ai aceh", 
+    "mecai.ai", 
+    "mecai"
+  ],
+}
+
 // @ts-nocheck
-export default function Page() {
+export default function Home() {
   return (
     <div style={{ 
       display: 'flex', 
@@ -36,9 +48,13 @@ export default function Page() {
         maxWidth: '600px', 
         lineHeight: '1.6' 
       }}>
-        FIRST MOVER, EKOSISTEM TEKNOLOGI KARIR BERBASIS AI DI ACEH DENGAN SERTIFIKASI BLOCKCHAIN,
-        PERAIH REKOR MURI & 2 REKOR DUNIA
+        FIRST MOVER, EKOSISTEM TEKNOLOGI KARIR BERBASIS AI DI ACEH
+        DENGAN SERTIFIKASI BLOCKCHAIN,
+        DARI PERAIH REKOR MURI & 2 REKOR DUNIA
       </p>
     </div>
+
+
+    
   );
 }
