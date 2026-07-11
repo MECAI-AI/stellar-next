@@ -27,7 +27,8 @@ export default function Page() {
         marginBottom: '1rem', 
         fontWeight: '600' 
       }}>
-        This website is under construction 🛠️
+        PELOPOR DOMAIN AI PERTAMA DI ACEH
+        INOVASI TEKNOLOGI AI DARI ACEH UNTUK MASA DEPAN INDONESIA🛠️
       </h2>
       <p style={{ 
         fontSize: '1.2rem', 
@@ -35,7 +36,8 @@ export default function Page() {
         maxWidth: '600px', 
         lineHeight: '1.6' 
       }}>
-        We're building the future of avatar interview simulation and global certification.
+        FIRST MOVER, EKOSISTEM TEKNOLOGI KARIR BERBASIS AI DI ACEH DENGAN SERTIFIKASI BLOCKCHAIN,
+        PERAIH REKOR MURI & 2 REKOR DUNIA
       </p>
     </div>
   );
