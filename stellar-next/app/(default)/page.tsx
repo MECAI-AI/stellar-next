@@ -39,7 +39,7 @@ export default function Home() {
         marginBottom: '1rem', 
         fontWeight: '600' 
       }}>
-        PELOPOR DOMAIN AI PERTAMA DI ACEH
+        PELOPOR DOMAIN .AI PERTAMA DI ACEH
         INOVASI TEKNOLOGI AI DARI ACEH UNTUK MASA DEPAN INDONESIA🛠️
       </h2>
       <p style={{ 
