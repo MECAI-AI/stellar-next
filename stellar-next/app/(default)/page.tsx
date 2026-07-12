@@ -53,11 +53,11 @@ export default function Home() {
         DARI PERAIH REKOR MURI & 2 REKOR DUNIA
       </p>
     </div>
-    <div className="w-full flex justify-center mt-12 px-4">
+    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3rem', padding: '0 1rem' }}>
   <img 
     src="https://githubusercontent.com" 
     alt="Bukti Klaim MECAI Aceh" 
-    className="w-full max-w-3xl h-auto rounded-2xl border border-slate-800 shadow-2xl"
+    style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem', border: '1px solid #1e293b' }}
   />
 </div>
 
