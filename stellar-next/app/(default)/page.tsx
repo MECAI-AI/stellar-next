@@ -59,8 +59,11 @@ export default function Home() {
   alt="Bukti Klaim MECAI Aceh" 
   style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem', border: '1px solid #ccc' }} 
 />
-
-
+    <img
+  src="/../buktiklaim.jpg" 
+  alt="Bukti Klaim MECAI Aceh" 
+  style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }} 
+/>
     
   );
 }
