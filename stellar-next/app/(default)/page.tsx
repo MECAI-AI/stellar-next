@@ -60,7 +60,7 @@ export default function Home() {
   style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem', border: '1px solid #ccc' }} 
 />
     <img
-  src="/../buktiklaim.jpg" 
+  src="/../buktiklaim.jpg.jpg" 
   alt="Bukti Klaim MECAI Aceh" 
   style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }} 
 />
