@@ -18,7 +18,7 @@ export default function Home() {
       flexDirection: 'column', 
       alignItems: 'center', 
       justifyContent: 'center', 
-      height: '100vh', 
+      minHeight: '100vh', 
       fontFamily: 'sans-serif', 
       backgroundColor: '#0f172a', 
       color: '#fff', 
@@ -52,17 +52,14 @@ export default function Home() {
         DENGAN SERTIFIKASI BLOCKCHAIN,
         DARI PERAIH REKOR MURI & 2 REKOR DUNIA
       </p>
-    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
-  <img 
-    src="/images/buktiklaim.jpg" 
-    alt="Bukti Klaim MECAI Aceh"
-    style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }}
-  />
-</div>
-
-
-
-
-    
+      
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
+        <img 
+          src="/images/buktiklaim.jpg" 
+          alt="Bukti Klaim MECAI Aceh"
+          style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }}
+        />
+      </div>
+    </div>
   );
 }
