@@ -54,7 +54,7 @@ export default function Home() {
       </p>
     <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
   <img 
-    src="/images/buktiklaim.jpg" 
+    src="/images/buktiklaim.jpg.jpg" 
     alt="Bukti Klaim MECAI Aceh"
     style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }}
   />
