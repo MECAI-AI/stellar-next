@@ -52,13 +52,14 @@ export default function Home() {
         DENGAN SERTIFIKASI BLOCKCHAIN,
         DARI PERAIH REKOR MURI & 2 REKOR DUNIA
       </p>
-    </div>
-    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3rem', padding: '0 1rem' }}>
-    <img
-  src="/../buktiklaim.jpg" 
-  alt="Bukti Klaim MECAI Aceh" 
-  style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }} 
-/>
+    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3rem' }}>
+  <img 
+    src="/../buktiklaim.jpg" 
+    alt="Bukti Klaim MECAI Aceh"
+    style={{ width: '100%', maxWidth: '600px', height: 'auto', borderRadius: '1rem' }}
+  />
+</div>
+
     
   );
 }
